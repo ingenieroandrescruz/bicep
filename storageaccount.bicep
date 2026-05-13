@@ -1,5 +1,5 @@
 param location string = resourceGroup().location
-param storageAccountName string = 'toylaunch${uniqueString(resourceGroup().id)}'
+param storageAccountName string = 'uniandes${uniqueString(resourceGroup().id)}'
 
 resource storageAccount 'Microsoft.Storage/storageAccounts@2023-05-01' = {
   name: storageAccountName
