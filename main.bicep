@@ -62,8 +62,8 @@ var imageReference = {
 var networkInterfaceName = '${vmName}NetInt'
 var osDiskType = 'Standard_LRS'
 
-var subnetAddressPrefix = '10.1.0.0/24'
-var addressPrefix = '10.1.0.0/16'
+var subnetAddressPrefix = '10.1.0.0/26'
+var addressPrefix = '10.1.0.0/24'
 
 var linuxConfiguration = {
   disablePasswordAuthentication: true
