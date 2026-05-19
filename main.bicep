@@ -25,11 +25,11 @@ param ubuntuOSVersion string = 'Ubuntu-2204'
 @description('Location for all resources.')
 param location string = resourceGroup().location
 
-@description('Tamaño de la VM')
+@description('Defina el Tamaño de la VM')
 param vmSize string = 'Standard_D2s_v3'
 
 @description('Name of the VNET')
-param virtualNetworkName string = 'vNet'
+param virtualNetworkName string = 'VirtualNetwork'
 
 @description('Name of the subnet in the virtual network')
 param subnetName string = 'Subnet'
