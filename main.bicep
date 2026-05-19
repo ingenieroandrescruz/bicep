@@ -29,7 +29,7 @@ param location string = resourceGroup().location
 param vmSize string = 'Standard_D2s_v3'
 
 @description('Name of the VNET')
-param virtualNetworkName string = 'vNet'
+param virtualNetworkName string = 'VirtualNetwork'
 
 @description('Name of the subnet in the virtual network')
 param subnetName string = 'Subnet'
