@@ -1,5 +1,5 @@
 @description('The name of your Virtual Machine.')
-param vmName string = 'MyVM'
+param vmName string = 'UnaVMenAzure'
 
 @description('Username for the Virtual Machine.')
 param adminUsername string
